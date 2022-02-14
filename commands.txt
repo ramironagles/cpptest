@@ -1,5 +1,5 @@
 TO EXECUTE:
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/centos/test/appdynamics-cpp-sdk/lib
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/centos/Repos/cpptest/appdynamics-cpp-sdk/lib
 ./server
 ./client
 
