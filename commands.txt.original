@@ -1,0 +1,10 @@
+TO EXECUTE:
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/centos/test/appdynamics-cpp-sdk/lib
+./server
+./client
+
+Logs are under /tmp/appd
+
+TO COMPILE:
+gcc server.c  -Lappdynamics-cpp-sdk/lib -lappdynamics -lpthread -ldl -std=c99 -o server
+gcc client.c  -Lappdynamics-cpp-sdk/lib -lappdynamics -lpthread -ldl -std=c99 -o client
